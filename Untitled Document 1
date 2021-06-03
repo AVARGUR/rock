@@ -1,0 +1,15 @@
+import random
+
+choices = ["rocks" , "papers" , "sissors"]
+
+pc = random.choice(choice)
+
+print("pc:",pc)
+
+player = input("rps")
+
+while player not in choices:
+	print("invalid")
+
+print("player:",player)	
+
